@@ -17,12 +17,12 @@ app.get("/", (req,res)=>{
 })
 
 app.get("/restaurant", (req, res)=>{
-  res.render("index", {restaurant: restaurantList})
+  res.render("index", { restaurantList })
 })
 
-app.get("/detail/:id", (req, res)=>{
+app.get("/restaurants/:id", (req, res)=>{
   const id = req.params.id
-  res.send(`read detail: ${id}`)
+  res.send(`restaurant info: ${id}`)
 })
 
 app.listen(port, ()=>{

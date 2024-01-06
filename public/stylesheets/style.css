@@ -99,3 +99,9 @@ header {
   }
 
 }
+
+
+.testing{
+  color:lavender;
+  outline:2px solid tomato;
+}
