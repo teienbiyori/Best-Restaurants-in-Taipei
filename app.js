@@ -17,14 +17,21 @@ app.get("/", (req,res)=>{
 })
 
 app.get("/restaurant", (req, res)=>{
-  res.render("index", { restaurantList })
+  //add specific css for each page
+  res.render("index", { restaurantList, style: "style.css" })
 })
 
 app.get("/restaurants/:id", (req, res)=>{
   const id = req.params.id
-  res.send(`restaurant info: ${id}`)
+  const restaurant = restaurantList.find(list=>
+    list.id.toString() === id)
+  //add specific css for each page
+  res.render("show", { restaurant, style: "show.css" })
 })
 
 app.listen(port, ()=>{
   console.log(`express server is running on http://localhost:${port}`)
 })
+
+
+
