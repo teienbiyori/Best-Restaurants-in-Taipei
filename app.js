@@ -17,8 +17,13 @@ app.get("/", (req,res)=>{
 })
 
 app.get("/restaurant", (req, res)=>{
-  //add specific css for each page
-  res.render("index", { restaurantList, style: "style.css" })
+  const keyword = req.query.keyword
+  const restaurant = restaurantList.filter(list=> list.name.toLowerCase().includes(keyword.toLowerCase()))
+  if(keyword === undefined){
+    res.render("index", { restaurantList, style: "style.css" })
+  }else{
+    res.render("index", { restaurantList: restaurant, keyword, style: "style.css" })
+  }
 })
 
 app.get("/restaurants/:id", (req, res)=>{
