@@ -18,10 +18,11 @@ app.get("/", (req,res)=>{
 
 app.get("/restaurant", (req, res)=>{
   const keyword = req.query.keyword
-  const restaurant = restaurantList.filter(list=> list.name.toLowerCase().includes(keyword.toLowerCase()))
+  
   if(keyword === undefined){
     res.render("index", { restaurantList, style: "style.css" })
   }else{
+    const restaurant = restaurantList.filter(list => list.name.toLowerCase().includes(keyword.toLowerCase()))
     res.render("index", { restaurantList: restaurant, keyword, style: "style.css" })
   }
 })
