@@ -17,12 +17,19 @@ app.get("/", (req,res)=>{
 })
 
 app.get("/restaurant", (req, res)=>{
-  const keyword = req.query.keyword
-  
+  const keyword = req.query.keyword?.trim()
+  //while keyword is undefined, it's not a str, causes toLowerCase error
   if(keyword === undefined){
     res.render("index", { restaurantList, style: "style.css" })
   }else{
-    const restaurant = restaurantList.filter(list => list.name.toLowerCase().includes(keyword.toLowerCase()))
+    const restaurant = restaurantList.filter(list => 
+      Object.values(list).some((property)=>{
+        if(typeof property === "string"){
+          return property.toLowerCase().includes(keyword.toLowerCase())
+        }
+        return false
+      })
+    )
     res.render("index", { restaurantList: restaurant, keyword, style: "style.css" })
   }
 })
