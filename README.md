@@ -6,7 +6,7 @@ This project is a web application that lists restaurants and allows users to sea
 You can also link to Google Maps by clicking the icon beside the address.  
 It's built using Express.js, Handlebars, Bootstrap, and Font Awesome.  
 
-## Installation _need to modify_
+## Installation 
 To set up this project locally, follow these steps:  
   
 1- Ensure you have node.js & npm installed.   
