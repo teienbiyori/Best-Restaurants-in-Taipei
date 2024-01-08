@@ -7,6 +7,7 @@ It's built using Express.js, Handlebars, Bootstrap, and Font Awesome.
 
 ## Installation _need to modify_
 To set up this project locally, follow these steps:  
+  
 1- Clone the repository.  
 2- Run npm install to install dependencies.  
 3- Ensure you have a Font Awesome kit installed.  
