@@ -15,7 +15,7 @@ To set up this project locally, follow these steps:
 ```
 npm install
 ```
-4- After installing npm, enter: _or run dev???_ 
+4- After installing npm, enter: 
 ```
 npm run start 
 ```
@@ -37,14 +37,14 @@ Once the installation is complete, run npm start to start the server. Access the
 - Display show page for individual restaurants
 - **Still revising**  
 
-## Development Kits Used _need to check_
+## Development Kits Used
 This project was developed using the following technologies and frameworks:  
 
-- Node.js (v10.15.0)
-- Express (v4.17.1)
-- Express-Handlebars (v5.3.3)
-- Bootstrap (v5.2.1)
-- Font Awesome (v5.8.1)  
+- Node.js (v20.10.0)
+- Express (v4.18.2)
+- Express-Handlebars (v7.1.2)
+- Bootstrap (v5.0.2)
+- Font Awesome (v6.5.1)  
 
 ## Credits
 Dra Chen - Project Creator  
