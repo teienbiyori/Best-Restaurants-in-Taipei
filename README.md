@@ -23,8 +23,8 @@ npm run start
 ```
 express server is running on http://localhost:3000
 ```
-6-Enter "localhost:3000" in the URL bar of your browser to access the application.
-7-To stop the server, press 'Ctrl + C' in the terminal.
+6-Enter "localhost:3000" in the URL bar of your browser to access the application.  
+7-To stop the server, press 'Ctrl + C' in the terminal.  
 
 ## Usage
 Once the installation is complete, run npm start to start the server. Access the application via a web browser.  
