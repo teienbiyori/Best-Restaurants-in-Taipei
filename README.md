@@ -12,13 +12,16 @@ To set up this project locally, follow these steps:
 1- Ensure you have node.js & npm installed.   
 2- Clone this repository.  
 3- Open the folder from terminal (mine's git.bash btw), enter:
-```npm install
 ```
-4- After installing npm, enter:
-```npm run start _or run dev???_
+npm install
+```
+4- After installing npm, enter: _or run dev???_ 
+```
+npm run start 
 ```
 5- When the server is running successfully, the terminal displays the following message:
-```express server is running on http://localhost:3000
+```
+express server is running on http://localhost:3000
 ```
 6-Enter "localhost:3000" in the URL bar of your browser to access the application.
 7-To stop the server, press 'Ctrl + C' in the terminal.
