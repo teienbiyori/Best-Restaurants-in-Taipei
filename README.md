@@ -1,5 +1,5 @@
-# Project Name
-Upgradeable Restaurant Listing App (Restaurant located in Taiwan Taipei _only for now_)  
+# Upgradeable Restaurant Listing App 
+(Restaurant located in Taiwan Taipei _only for now_)  
 
 ## Description
 This project is a web application that lists restaurants and allows users to search for specific ones.  
@@ -11,8 +11,17 @@ To set up this project locally, follow these steps:
   
 1- Ensure you have node.js & npm installed.   
 2- Clone this repository.  
-3- Open the folder from terminal. (mine's git.bash btw)
-4- Ensure you have a Font Awesome kit installed.  
+3- Open the folder from terminal (mine's git.bash btw), enter:
+```npm install
+```
+4- After installing npm, enter:
+```npm run start _or run dev???_
+```
+5- When the server is running successfully, the terminal displays the following message:
+```express server is running on http://localhost:3000
+```
+6-Enter "localhost:3000" in the URL bar of your browser to access the application.
+7-To stop the server, press 'Ctrl + C' in the terminal.
 
 ## Usage
 Once the installation is complete, run npm start to start the server. Access the application via a web browser.  
