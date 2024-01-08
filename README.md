@@ -3,25 +3,36 @@ Upgradeable Restaurant Listing App (Restaurant located in Taiwan Taipei _only fo
 
 ## Description
 This project is a web application that lists restaurants and allows users to search for specific ones.  
+You can also link to Google Maps by clicking the icon beside the address.  
 It's built using Express.js, Handlebars, Bootstrap, and Font Awesome.  
 
 ## Installation _need to modify_
 To set up this project locally, follow these steps:  
   
-1- Clone the repository.  
-2- Run npm install to install dependencies.  
-3- Ensure you have a Font Awesome kit installed.  
-4- Set up the necessary environment variables.  
+1- Ensure you have node.js & npm installed.   
+2- Clone this repository.  
+3- Open the folder from terminal. (mine's git.bash btw)
+4- Ensure you have a Font Awesome kit installed.  
 
 ## Usage
 Once the installation is complete, run npm start to start the server. Access the application via a web browser.  
 
 ## Features
-- Upgraded search functionality for better performance  
+- Upgraded search functionality for better performance
+- Type any keywords you can come up with to search for specific restaurants
 - Default to full list display  
 - Implemented individual CSS for each page  
-- Display show page for individual restaurants  
+- Display show page for individual restaurants
 - **Still revising**  
+
+## Development Kits Used _need to check_
+This project was developed using the following technologies and frameworks:  
+
+- Node.js (v10.15.0)
+- Express (v4.17.1)
+- Express-Handlebars (v5.3.3)
+- Bootstrap (v5.2.1)
+- Font Awesome (v5.8.1)  
 
 ## Credits
 Dra Chen - Project Creator  
