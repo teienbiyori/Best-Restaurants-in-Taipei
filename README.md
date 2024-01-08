@@ -1,5 +1,9 @@
+<img src="https://github.com/teienbiyori/Best-Restaurants-in-Taipei/blob/main/screenshot/restaurant-homepage.png" width="600">
+
 # Upgradeable Restaurant Listing App 
 (Restaurant located in Taiwan Taipei _only for now_)  
+
+<img src="https://github.com/teienbiyori/Best-Restaurants-in-Taipei/blob/main/screenshot/restaurant-info.png" width="400">
 
 ## Description
 This project is a web application that lists restaurants and allows users to search for specific ones.  
@@ -26,8 +30,7 @@ express server is running on http://localhost:3000
 6-Enter "localhost:3000" in the URL bar of your browser to access the application.  
 7-To stop the server, press 'Ctrl + C' in the terminal.  
 
-## Usage
-Once the installation is complete, run npm start to start the server. Access the application via a web browser.  
+<img src="https://github.com/teienbiyori/Best-Restaurants-in-Taipei/blob/main/screenshot/restaurant-search.png" width="400">
 
 ## Features
 - Upgraded search functionality for better performance
